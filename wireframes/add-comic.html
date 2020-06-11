@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add comic wireframe</title>
 </head>
 <body>
-    
+    <form>
+        <label for="title-input">Title:</label>
+        <input type="text" id="title-input">
+
+        <label for="author-input">Author(s):</label>
+        <input type="text" id="author-input">
+
+        <label for="issue-input">Issue:</label>
+        <input type="number" id="issue-input">
+
+        <label for="mark-as-read">Mark as read:</label>
+        <input type="checkbox" id="mark-as-read">
+
+        <label for="description-input">Description:</label>
+        <input type="text" id="description-input">
+
+        <label for="desination-input">Add to:</label>
+        <select name="destination" id="desination-input">
+            <option value="collection">Collection</option>
+            <option value="wish-list">Wish List</option>
+        </select>
+
+        <button class="add-comic-button">Add Comic</button>
+        </form>
 </body>
 </html>
